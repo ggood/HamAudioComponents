@@ -1,0 +1,37 @@
+<html>
+
+<head>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+  <script src="../keyer/keyer.js"></script>
+  <script src="station.js"></script>
+  <script src="station_test_app.js"></script>
+
+</head>
+
+<body>
+  <h2>Test: 2 stations sending simultaneously</h2>
+  <label for="send_text1">Text to send (1)</label>
+  <textarea id="send_text1" class="send-text" rows=5 cols="50">the quick brown fox jumped over the lazy dog</textarea>
+  <br>
+  <button type="button" id="send1" class="send-button">Send</button>
+  <button type="button" id="cancel1" class="cancel-button">Cancel</button>
+  Speed: <input type="text" id="speed1" value="30">
+  Pitch: <input type="text" id="pitch1" value="500">
+  Gain (0-100): <input type="text" id="gain1" value="100">
+  <p>
+
+  <label for="send_text2">Text to send (2)</label>
+  <textarea id="send_text2" class="send-text" rows=5 cols="50">all good dogs and elephants berate foxes constantly</textarea>
+  <br>
+  <button type="button" id="send2" class="send-button">Send</button>
+  <button type="button" id="cancel2" class="cancel-button">Cancel</button>
+  Speed: <input type="text" id="speed2" value="25">
+  Pitch: <input type="text" id="pitch2" value="700">
+  Gain (0-100): <input type="text" id="gain2" value="20">
+  <p>
+
+
+</body>
+
+</html>
